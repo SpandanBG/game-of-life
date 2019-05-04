@@ -3,6 +3,11 @@
 Conway's game of life implemented in webassembly using Rust and Javascript
 
 ## Setup
+- At project root
+```
+wasm-pack build
+```
+
 - At `pkg/`
 ```
 npm link
