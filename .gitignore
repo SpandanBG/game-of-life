@@ -1,6 +1,12 @@
+# Cargo
 /target
 **/*.rs.bk
 Cargo.lock
-bin/
-pkg/
-wasm-pack.log
+/pkg
+
+# Node
+dist/
+node_modules/
+
+# VSCode
+.vscode/

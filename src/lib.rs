@@ -16,7 +16,7 @@ pub enum Cell {
 }
 
 #[wasm_bindgen]
-#[allow(dead_code)]
+#[derive(Debug)]
 pub struct Universe {
     width: u32,
     height: u32,
@@ -37,7 +37,6 @@ impl fmt::Display for Universe {
 }
 
 #[wasm_bindgen]
-#[allow(dead_code)]
 impl Universe {
     pub fn new() -> Universe {
         let width = 64;
@@ -57,7 +56,6 @@ impl Universe {
             cells,
         }
     }
-
     pub fn width(&self) -> u32 {
         self.width
     }
