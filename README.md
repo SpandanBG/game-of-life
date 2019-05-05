@@ -1,4 +1,4 @@
-# Life of Game
+# Game of life
 
 This is Conway's Game Of Life simulation.
 
